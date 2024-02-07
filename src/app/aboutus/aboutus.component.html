@@ -1,0 +1,5 @@
+<p>aboutus works!</p>
+<a  routerLink="/about">Click Me</a>
+<input type="text" [(ngModel)]="name">
+<button class="btn btn-success" routerLink="/about" [queryParams]="{addItem:(name)}">Click Me</button>
+<router-outlet></router-outlet>
